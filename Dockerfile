@@ -5,8 +5,6 @@ WORKDIR /usr/src/app
 
 COPY package.json package-lock.json ./
 
-asdfadsfa
-
 # Install deps
 RUN npm i
 
