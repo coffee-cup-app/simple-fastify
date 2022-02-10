@@ -11,7 +11,5 @@ RUN npm i
 # Bundle app source
 COPY . .
 
-.
-
 # Start
 CMD [ "npm", "start" ]
