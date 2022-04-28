@@ -21,8 +21,10 @@ server.listen(process.env.PORT || 9999, "0.0.0.0", (err, address) => {
   console.log(`Server listening at ${address}`);
 });
 
+console.log("DATABASE_URL", process.env.DATABASE_URL);
+
 let count = 0;
 setInterval(() => {
   console.log(`Count: ${count}`);
   count += 1;
-}, 1000)
+}, 10000)
