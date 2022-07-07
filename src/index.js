@@ -10,7 +10,7 @@ const deployInfo = {
 };
 
 server.get("/", async (request, reply) => {
-  reply.code(200).send({ ...deployInfo });
+  reply.code(200).send({ message: "Hello", ...deployInfo });
 });
 
 server.listen(process.env.PORT || 9999, "0.0.0.0", (err, address) => {
