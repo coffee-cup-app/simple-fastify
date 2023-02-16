@@ -5,7 +5,7 @@
     "buildCommand": "echo building!"
   },
   "deploy": {
-    "restartPolicyType": "NEVER"
+    "restartPolicyType": "NEVER
     "startCommand": "echo starting :D"
   }
 }
