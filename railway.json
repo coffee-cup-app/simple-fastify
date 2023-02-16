@@ -6,6 +6,6 @@
   },
   "deploy": {
     "restartPolicyType": "NEVER"
-    "startCommand": "echo starting!"
+    "startCommand": "echo starting :D"
   }
 }
